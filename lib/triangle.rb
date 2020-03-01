@@ -13,7 +13,7 @@ class Triangle
     
     if smallest_side == middle_side && middle_side && largest_side
       :equilateral
-    elsif
+    elsif smallest_side == middle_side ||
     
   end
   
