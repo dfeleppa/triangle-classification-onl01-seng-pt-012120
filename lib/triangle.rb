@@ -9,7 +9,7 @@ class Triangle
      smallest_side, middle_side, largest_side = [@side_one, @side_two, @side_three].sort
     if smallest_side < 0 || (smallest_side + middle_side) < largest_side
       raise TriangleError
-    
+    end
 end
   
   
