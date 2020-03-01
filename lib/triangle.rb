@@ -2,12 +2,14 @@ class Triangle
   attr_accessor :side_one, :side_two, :side_three
   
   def initialize(side_one, side_two, side_three)
-    @side_one, @side_two = side_one, side_two,   = side_three
+    @side_one, @side_two, @side_three = side_one, side_two, side_three
   end
   
   def kind
-     smallest_side, middle_side, largest_side = [@a, @b, @c].sort
-    if 
+     smallest_side, middle_side, largest_side = [@side_one, @side_two, @side_three].sort
+    if smallest_side < 0 
+      raise TriangleError
+      
 end
   
   
