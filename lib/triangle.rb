@@ -10,6 +10,9 @@ class Triangle
     if smallest_side < 0 || (smallest_side + middle_side) < largest_side
       raise TriangleError
     end
+    
+    if smallest_side =
+    
   end
   
   
