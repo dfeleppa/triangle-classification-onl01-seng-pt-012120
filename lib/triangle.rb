@@ -13,8 +13,10 @@ class Triangle
     
     if smallest_side == middle_side && middle_side && largest_side
       :equilateral
-    elsif smallest_side == middle_side ||
-    
+    elsif smallest_side == middle_side || smallest_side == largest_side || middle_side == largest_side
+      :isosceles
+    else
+      :scalene
   end
   
   
