@@ -11,7 +11,8 @@ class Triangle
       raise TriangleError
     end
     
-    if smallest_side =
+    if smallest_side == middle_side && middle_side && largest_side
+      k
     
   end
   
