@@ -8,7 +8,7 @@ class Triangle
   end
   
   def kind
-     smallest_side, middle_side, largest = [@a, @b, @c].sort
+     smallest_side, middle_side, largest_side = [@a, @b, @c].sort
     if 
 end
   
